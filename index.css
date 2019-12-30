@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.title{
+    text-align: centre;
+    margin-left: 70px;
+    
+    
+    font-size: 20px;
+     font-weight: bolder;
+}
+.tb
+{
+    border-radius: 10px;
+    border: solid black 2px;
+    margin-left: 50px; 
+     margin-top: 30px;     
+}
+input[type="button"] 
+         { 
+         
+    color: black; 
+                  border: solid black 2px; 
+ width:100%;
+border-radius: 10px;
+font-weight: bolder;
+          
+         } 
+  
+input[type="text"] 
+{ 
+ background-color:white; 
+border: solid black 2px; 
+  width:100% ;
+     border-radius: 10px;
+ font-weight: bolder;
+ text-align:center;
+         
+          
+         } 

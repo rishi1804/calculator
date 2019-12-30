@@ -1,0 +1,50 @@
+<html>
+    <head><link rel="stylesheet" href="normalize.css">
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+   <body> 
+      
+      <input id="dark" type="button" value="DARK" onclick="darktheme()"> 
+      <input id="light" type="button" style="background-color:green" value="LIGHT" onclick="lighttheme()">
+      <table id="tb" class="tb" border="1"> 
+         <tr>
+             <td colspan="4" style="font-weight:bolder;text-align:center;color:blue">MY CALCULATOR</td>
+         </tr>
+         <tr> 
+            <td colspan="4"><input  type="text" id="output"/></td>
+             
+         </tr>
+        <tr>
+            <td colspan="2" ><input style="color:red"type="button" value="RESET" onclick="eraseAll()"/> </td> 
+            <td colspan="2"><input style="color:red" type="button" value="CLEAR" onclick="eraseAll()"/> </td> 
+         </tr> 
+         <tr> 
+            
+            <td><input type="button" value="1" onclick="show('1')"/> </td> 
+            <td><input type="button" value="2" onclick="show('2')"/> </td> 
+            <td><input type="button" value="3" onclick="show('3')"/> </td> 
+            <td><input type="button" value="/" onclick="show('/')"/> </td> 
+         </tr> 
+         <tr> 
+            <td><input type="button" value="4" onclick="show('4')"/> </td> 
+            <td><input type="button" value="5" onclick="show('5')"/> </td> 
+            <td><input type="button" value="6" onclick="show('6')"/> </td> 
+            <td><input type="button" value="-" onclick="show('-')"/> </td> 
+         </tr> 
+         <tr> 
+            <td><input type="button" value="7" onclick="show('7')"/> </td> 
+            <td><input type="button" value="8" onclick="show('8')"/> </td> 
+            <td><input type="button" value="9" onclick="show('9')"/> </td> 
+            <td><input type="button" value="+" onclick="show('+')"/> </td> 
+         </tr> 
+         <tr> 
+            <td><input type="button" value="." onclick="show('.')"/> </td> 
+            <td><input type="button" value="0" onclick="show('0')"/> </td> 
+            
+            <td><input style="color:green" type="button" value="=" onclick="calculate()"/> </td> 
+     <td><input type="button" value="*" onclick="show('*')"/> </td> 
+         </tr> 
+      </table> 
+   </body> 
+</html>    
